@@ -1,1 +1,35 @@
 comandos GIT
+
+1.- Clonar repo
+2.- Crear rama
+git checkout -b feature-colaboracion
+
+3.- Hacer cambios
+4.- Commit
+git add .
+git commit -m "Agregar sección sobre Pull Requests"
+
+5.- Push rama
+git push -u origin feature-colaboracion
+
+6.- Pull Request
+Revisión
+
+	Ve a GitHub
+	Verás botón Compare & pull request
+	Completa:
+	Title: Agregar sección de Pull Requests
+	Description: qué hiciste y por qué
+	Click Create Pull Request
+
+7.- Merge
+	Click en Merge pull request
+
+borrar rama
+git checkout main
+git pull
+git branch -d feature-colaboracion
+
+actualizado
+
+
